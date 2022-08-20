@@ -1,0 +1,93 @@
+@use '../../../styles/variables' as v;
+
+.search {
+  padding: 2rem 0;
+  border-radius: 10px;
+  width: 100%;
+
+  .search-textfield {
+    label.Mui-focused {
+      color: v.$textPrimary;
+    }
+
+    & .MuiInput-underline:after {
+      border-bottom-color: v.$textPrimary;
+    }
+
+    & .MuiOutlinedInput-root {
+      & fieldset {
+        border-color: v.$textPrimary;
+        border: 2px solid;
+      }
+      &:hover fieldset {
+        border-color: v.$textPrimary;
+      }
+
+      &.Mui-focused fieldset {
+        border-color: v.$textPrimary;
+      }
+    }
+  }
+
+  .search-quick-filters {
+    &__make {
+      padding: 1rem 0 0.6rem;
+      display: flex;
+      flex-wrap: wrap;
+
+      &__item {
+        margin: 0 0.3rem 0.3rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 0.5rem;
+        height: 2.6rem;
+        width: 2.6rem;
+        padding: 0.3rem;
+        cursor: pointer;
+
+        &--selected {
+          background: v.$qarsonPrimary;
+        }
+
+        img {
+          height: auto;
+          max-height: 100%;
+          width: auto;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+
+  .availability-filter {
+    display: flex;
+    align-items: center;
+
+    &__checkbox {
+      &.MuiCheckbox-root {
+        padding: 0;
+        
+        &.Mui-checked {
+          color: v.$qarsonPrimary;
+  
+          svg {
+            fill: v.$qarsonPrimary;
+            background: v.$textPrimary;
+            border-radius: 0.5rem;
+          }
+        }
+  
+        svg {
+          height: 2.6rem;
+          width: 2.6rem;
+          fill: v.$textPrimary;
+        }
+      }
+    }
+
+    &__label {
+      padding: 0 0.3rem;
+    }
+  }
+}

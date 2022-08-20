@@ -1,46 +1,85 @@
-# Getting Started with Create React App
+## To run application locally:
+npm install
+npm start
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
+#Hello!
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+We ask you to create a JS application. UI elements should be styled with css or sass/scss.
 
-### `npm start`
+We would like to receive the solution within **5 days**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Application description
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+We need an application that will present data about cars (based on file **_data.json_**) as tiles on the page.
 
-### `npm test`
+A tile consists of:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- image
+- make
+- model
+- engine type
+- model name (pattern: make model engine type)
+- **available** (two possible values: yes/no)
 
-### `npm run build`
+If a car is not available, its tile should show this information.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+We would like to have a button changing availability, such as `add to cart` on each tile.
+Clicking on that button should change the **availability** state of that car.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Also, each tile should have a **delete** button to remove a car from the list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The application should be adjusted to desktop browsers and mobile devices.
 
-### `npm run eject`
+The application should be covered with **tests**.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The preferred stack is ReactJS with Typescript. Optionally, if you don't know react you can use Typescript or vanilla JS. 
+We prefer Jest and React Testing Library in tests.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### View
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+An example of tile design is shown in **_sample_tiles.png_** file, but we leave it up to you to decide on the final look.
+A tile should contain:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- image - if it's available,
+- make,
+- model,
+- engine type,
+- delete button,
+- button to change availability.
 
-## Learn More
+A view of an unavailable car should stand out from the rest, e.g. red outline.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Resources
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can find two files in the repository:
+- _data.json_ is the source of the data
+- _sample_tiles.png_ is the view sample
+
+### Evaluation criteria
+
+We will evaluate your code on:
+
+- knowledge of the: JS, TypeScript and ReactJS
+- structure and organization of your code in files
+- taking care about code readability - code should be written according to https://standardjs.com/
+- quality of written tests
+- compliance of the solution with the task content
+
+### Tips
+
+- if you use a css preprocessor like sass you can use webpack to build them. However,
+  if you use something else to build the css files, you should add a description of how to build them in the README
+- you need asynchronous JavaScript to retrieve data from file (you can use the native approach or a third party library)
+- css code style - we prefer two spaces as indentation
+- js code style- try to follow the standardJS ``https://standardjs.com/``
+- if the description of the task is not clear to you, please contact us via e-mail ``developers.php@edpauto.com``
+
+### How to work with the repository
+
+We ask you to create a copy (NOT FORK) of the current repository on bitbucket / github / gitlab and send the repository address to: developers.php@edpauto.com.
+
+You should create a branch derived from the main branch. The team will perform code review of your application.
+
+Good luck

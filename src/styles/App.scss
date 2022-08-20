@@ -1,0 +1,86 @@
+@use './variables' as v;
+
+.App {
+  background-color: v.$background;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  color: v.$textPrimary;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: v.$fontSizeRegular;
+
+  header, main {
+    width: 100%;
+  }
+
+  header {
+    height: 60px;
+    max-width: v.$content-width;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    .logo {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      flex: 1;
+
+      img {
+        height: 70%;
+      }
+    }
+  
+    .icon {
+      position: relative;
+      padding-right: 0.3rem;;
+
+      svg {
+        color: #1d1f20;
+      }
+
+      .counter {
+        position: absolute;
+        top: -5px;
+        right: -5px;
+        border-radius: 50%;
+        background-color: v.$qarsonPrimary;
+        color: v.$textPrimary;
+        height: 25px;
+        width: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: v.$fontSizeSmall;
+      }
+    }
+
+    @media only screen and (max-width: v.$breakpointMobile) {
+      background: v.$textPrimary;
+
+      .icon {
+        svg {
+          color: v.$background;
+        }
+      }
+    }
+  }
+
+  main {
+    overflow: auto;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .main-container {
+      max-width: v.$content-width;
+      padding: 0 1rem;
+      width: 100%;
+    }
+  }
+}
