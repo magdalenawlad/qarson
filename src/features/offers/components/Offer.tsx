@@ -24,12 +24,15 @@ export const Offer = ({
     selected ? dispatch(removeFromCart(id)) : dispatch(addToCart(id)), [selected]);
  
   return (
-    <div className={`offer-card ${!availability ? 'offer-card--disabled' : ''}`}>
+    <div
+      className={`offer-card ${!availability ? 'offer-card--disabled' : ''}`}
+      data-testid='offer-card'
+    >
       {!availability && <div className="indicator">Unavailable</div>}
       {photo ? (
-        <img src={photo} alt="Auto" />
+        <img data-testid="offer-photo" src={photo} alt="Auto" />
       ) : (
-        <img className="car-placeholder" src={autoIcon} alt="Auto" />
+        <img data-testid="offer-photo" className="car-placeholder" src={autoIcon} alt="Auto" />
       )}
       <div className='offer-card__description'>
         <div className='offer-card__description__name'>{`${Make[make]} ${model}`}</div>

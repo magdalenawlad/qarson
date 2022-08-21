@@ -61,6 +61,7 @@
 
     @media only screen and (max-width: v.$breakpointMobile) {
       background: v.$textPrimary;
+      @include v.shadow(0, v.$textPrimary);
 
       .icon {
         svg {

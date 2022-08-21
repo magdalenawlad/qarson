@@ -6,25 +6,15 @@
   width: 100%;
 
   .search-textfield {
+    @include v.shadow(0.5rem);
+
     label.Mui-focused {
       color: v.$textPrimary;
     }
 
-    & .MuiInput-underline:after {
-      border-bottom-color: v.$textPrimary;
-    }
-
     & .MuiOutlinedInput-root {
       & fieldset {
-        border-color: v.$textPrimary;
-        border: 2px solid;
-      }
-      &:hover fieldset {
-        border-color: v.$textPrimary;
-      }
-
-      &.Mui-focused fieldset {
-        border-color: v.$textPrimary;
+        border: none;
       }
     }
   }
@@ -48,6 +38,7 @@
 
         &--selected {
           background: v.$qarsonPrimary;
+          @include v.shadow(0.5rem, v.$qarsonGreen);
         }
 
         img {
@@ -70,6 +61,7 @@
         
         &.Mui-checked {
           color: v.$qarsonPrimary;
+          @include v.shadow();
   
           svg {
             fill: v.$qarsonPrimary;

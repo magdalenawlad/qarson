@@ -1,6 +1,7 @@
 $textPrimary: #1d1f20;
 $backgroundDark: #e4e3e3;
 $background: #fbfbfb;
+$background: #e0e0e0;
 $qarsonPink: #E13F8C;
 $qarsonGreen: #A2C63E;
 $qarsonBlue: #1a7dc5;
@@ -13,3 +14,14 @@ $fontSizeRegular: 1.2rem;
 $fontSizeBig: 1.6rem;
 
 $breakpointMobile: 600px;
+
+@mixin shadow (
+  $radius: 1rem,
+  $backgroundColor: #e0e0e0,
+  $shadowColor1: #989898,
+  $shadowColor2: #ffffff
+) {
+  border-radius: $radius;
+  background: $backgroundColor;
+  box-shadow: 7px 7px 14px $shadowColor1, -7px -7px 14px $shadowColor2;
+}

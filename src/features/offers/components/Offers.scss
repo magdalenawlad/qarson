@@ -28,6 +28,7 @@
   flex-direction: column;
   overflow: hidden;
   position: relative;
+  @include v.shadow();
 
   img {
     width: auto;
@@ -70,6 +71,8 @@
       &--selected {
         background: v.$qarsonPrimary;
         color: v.$textPrimary;
+        border-radius: 1rem 0 0;
+        box-shadow: inset 7px 7px 14px #6e872a, inset -7px -7px 14px #d6ff52;
       }
 
       &:disabled {

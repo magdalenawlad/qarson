@@ -13,7 +13,14 @@ export const Header = () => {
       </div>
       <div className='icon'>
         <ShoppingCartSharp fontSize='large' />
-        {!!selectedCarsCounter && <span className="counter">{selectedCarsCounter}</span>}
+        {!!selectedCarsCounter && (
+          <span
+            className="counter"
+            data-testid="cart-counter"
+          >
+            {selectedCarsCounter}
+          </span>
+        )}
         </div>
     </header>
   );

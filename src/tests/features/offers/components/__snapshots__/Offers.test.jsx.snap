@@ -1,0 +1,662 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div>
+  <div
+    class="search"
+  >
+    <div>
+      <div
+        class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root search-textfield css-wb57ya-MuiFormControl-root-MuiTextField-root"
+      >
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-fullWidth MuiInputBase-formControl MuiInputBase-adornedEnd css-154xyx0-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputAdornedEnd css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
+            id="quick-filter-text"
+            type="text"
+            value=""
+          />
+          <div
+            class="MuiInputAdornment-root MuiInputAdornment-positionEnd MuiInputAdornment-outlined MuiInputAdornment-sizeMedium css-1laqsz7-MuiInputAdornment-root"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="SearchIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+              />
+            </svg>
+          </div>
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-hdw1oc"
+            >
+              <span
+                class="notranslate"
+              >
+                ​
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <div
+      class="search-quick-filters"
+    >
+      <div
+        class="availability-filter"
+      >
+        <span
+          class="MuiButtonBase-root MuiCheckbox-root MuiCheckbox-colorPrimary PrivateSwitchBase-root MuiCheckbox-root MuiCheckbox-colorPrimary availability-filter__checkbox css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root"
+        >
+          <input
+            class="PrivateSwitchBase-input css-1m9pwf3"
+            data-indeterminate="false"
+            type="checkbox"
+            value="false"
+          />
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+            data-testid="CheckBoxOutlineBlankIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </span>
+        <div
+          class="availability-filter__label"
+        >
+          Available now
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="offers-container"
+  >
+    <div
+      class="offers"
+    >
+      <div
+        class="offers-label"
+      >
+        Offers found: 
+        <span>
+          11
+        </span>
+      </div>
+      <div
+        class="offers-list"
+      >
+        <div
+          class="offer-card offer-card--disabled"
+          data-testid="offer-card"
+        >
+          <div
+            class="indicator"
+          >
+            Unavailable
+          </div>
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/60653/mandataire-auto-cd-fl030-ba75c5-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Volkswagen Golf VII
+            </div>
+            <div>
+              1.6 TDI
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/51897/mandataire-auto-cd-fl030-1c5b73-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Volkswagen up!
+            </div>
+            <div>
+              1.0 BMT
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card offer-card--disabled"
+          data-testid="offer-card"
+        >
+          <div
+            class="indicator"
+          >
+            Unavailable
+          </div>
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/51897/mandataire-auto-cd-fl030-1c5b73-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Volkswagen Polo VI
+            </div>
+            <div>
+              1.0 TSI
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/51250/face-arriere-droite-karoq-cd-lr120-e8b54a-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Skoda Karoq
+            </div>
+            <div>
+              1.6 TDI
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card offer-card--disabled"
+          data-testid="offer-card"
+        >
+          <div
+            class="indicator"
+          >
+            Unavailable
+          </div>
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/41392/face-avant-gauche-30-deg-arona-lf30-5b531f-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Seat Arona
+            </div>
+            <div>
+              1.0 TSI
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/62030/mandataire-auto-cd-fl030-cfca76-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Renualt Twingo
+            </div>
+            <div>
+              1.0 Sce
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card offer-card--disabled"
+          data-testid="offer-card"
+        >
+          <div
+            class="indicator"
+          >
+            Unavailable
+          </div>
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/62030/mandataire-auto-cd-fl030-cfca76-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Renualt Clio
+            </div>
+            <div>
+              1.0 Tce
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/54791/mandataire-auto-cd-fl030-af72bd-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Pegeuot 208
+            </div>
+            <div>
+              1.2 PureTech
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card offer-card--disabled"
+          data-testid="offer-card"
+        >
+          <div
+            class="indicator"
+          >
+            Unavailable
+          </div>
+          <img
+            alt="Auto"
+            class="car-placeholder"
+            data-testid="offer-photo"
+            src="car-placeholder.png"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Pegeuot 208
+            </div>
+            <div>
+              1.2 PureTech
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+              disabled=""
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            class="car-placeholder"
+            data-testid="offer-photo"
+            src="car-placeholder.png"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Kia Rio
+            </div>
+            <div>
+              1.25 CVVT
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+        <div
+          class="offer-card "
+          data-testid="offer-card"
+        >
+          <img
+            alt="Auto"
+            data-testid="offer-photo"
+            src="https://cars.qarson.fr/64881/mandataire-auto-cd-fl030-29e909-bcp.jpg"
+          />
+          <div
+            class="offer-card__description"
+          >
+            <div
+              class="offer-card__description__name"
+            >
+              Kia Rio
+            </div>
+            <div>
+              1.25 CVVT
+            </div>
+          </div>
+          <div
+            class="offer-card__footer"
+          >
+            <div
+              class="offer-card__footer__price"
+            >
+              $559.99
+            </div>
+            <button
+              class="offer-card__footer__button "
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="AddShoppingCartIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+                />
+              </svg>
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

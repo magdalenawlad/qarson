@@ -1,6 +1,8 @@
 import React, { useCallback } from 'react';
 import { TextField } from '@mui/material';
 import Checkbox from '@mui/material/Checkbox';
+import SearchIcon from '@mui/icons-material/Search';
+import { InputAdornment } from '@mui/material';
 import { useDispatch, useSelector } from 'react-redux';
 import { AppDispatch, RootState } from '../../../app/store';
 import {
@@ -33,23 +35,32 @@ export const OffersSearch = () => {
       <div>
         <TextField
           fullWidth
-          id="search"
-          label="Search"
-          variant="outlined"
+          id='quick-filter-text'
+          variant='outlined'
           value={textFilter}
           onChange={handleTextFilterChange}
-          className="search-textfield"
+          className='search-textfield'
+          InputProps={{
+            endAdornment:
+              <InputAdornment position="end">
+                <SearchIcon />
+              </InputAdornment>
+          }}
         />
       </div>
       <div className='search-quick-filters'>
         {quickMakeFilters && !!quickMakeFilters.length && (
-          <div className='search-quick-filters__make'>
+          <div
+            className='search-quick-filters__make'
+            data-testid='search-quick-filters-make'
+          >
             {quickMakeFilters.map(({ name, selected }) => (
               <div
                 key={name}
                 className={
                   `search-quick-filters__make__item ${selected ? 'search-quick-filters__make__item--selected': ''}`
                 }
+                data-testid='search-quick-filters-make__item'
                 onClick={() => handleMakeQuickFilterChange(name, !selected)}
               >
                 <img src={getMakeLogoPath(name)} />
